@@ -1,6 +1,6 @@
 language: python
 python:
-- '3.6'
+- '3.7'
 install:
 - pip install -r requirements-travis.txt
 script:
@@ -8,7 +8,7 @@ script:
 deploy:
   provider: heroku
   api_key:
-    secure: cdod/Z+i6/HGdqxo7M1ZcgeqFRuwnCdgazfda4nhCl7enMpanwdBJ5Kdk1uu9YRb/NntOh0RDjwXKACP2cNfA+MdyNdPSiV+MKlh06WW1DPnvCNCYaLdcXTdN38BHNDGI3XlR1aUGcJFWDWyZw81zdKlOI7G0x4R0NXws1/hEJ72LEExMKBa6rMO4TDfV6nchNpE9bf51xBo5eTnETZ7YZyScBdDVVhLO6ahA4ONmsY1HHK83DYbx1oKAKw1MHKUhQfak2U/+oOTSRGx8i6gaso3ebcN/L1NJIKRNH0z0QuGF7BxpMjrbuyXlDL+SXVzYPhR8vmVMWW4noXxq/rnOqic0m7+gfZTY1e7ajN9F3+nDrn2Xtc2m4gXtL5iHSVlvj8e3k5tskWOeCp1cjNH1VNSoeZMLEoi+AuWlcoj7u5U4HGGhpPVPpg04+UKrZ3R2og9+wZ0dx3hn4Eyz+wK+4GzYaM/PxmUl4eoYSi5Cpr5G53aKOq6ZiECkoCUMCgY6/h5PGHH/0CH9/c3lRxzcrMPJ7OL4AyqkwxE+Wpe0lx46jJlx54amDoANBt4WaS9oqVwiyekC1QVgF/pq7M0/Ffp3Ai8L858HrvgS9iBvjTVBhIhPgcVXAZsRAUHUa6PJirh4Cogy+3XjJnrorPhAO2uDgHPNgvQT3mEoTR22YE=
-  app: staff-textbookexchange
+    secure: GyBiEXVoHD1BaPysEJZ/vsRBUy8ITA50+pK3BTcqvwFH6DWIaU1yh+/6J7knjsrIjPMBVaDG60uGCm5bRWyyWkyrDNbyZzIQA0ZeOGM+eZaYb5n1d7QKr2zZozDQ7oeEKJBXcH+8laJTHkR8VEs1a/ntkf0ADrTaeHqQA3kQq3w9MLgvMyx40F0QL27vFal6fepQd/ViYnNGylC/3mQ1UAiVBKUArvId6kHE6Dut1bifSZySlb/tE4mkdHazczfKSvRYdgfg9bMVmzfaHKJl5EUHZryWEjWoEeP4WhwRr0XypapPzd0JNx9DO2436ujSfR0J0wtlc5PukkxfD3DUO+9sTyhYyO+x0gx40uUv63AA4UGfnlOJiD/0RrehsIvHi6PvZ7nFWl3ZNRYwaqmEMSm4NsC1OD87yL/Q/+AbiafSp1zIdYDnUfZzBBYTYVtD8DJr9GsEka2Npr0Ccphg6EEyXJVntm8jqBLh6sDswWN9u/ur3d+azChRA427ByH8iIbKPigGJL+y+ml4BaRAtGK08hTOIMOYw1FDBAqT3dgBrnnXTG8QWC3KpcAhBbc1Vd1plyytd1ldPcVPV3MB+CfFHjmaJqblgUcDvrHS9aCCuWwht1OjEVF8pzA6+ezqINdTEH/K5WejkwX7ATXkj416QWoxzHutNWsf87OjH0w=
+  app: horton-textbookexchange
   on:
-    repo: uva-cs3240-f19/Staff-TextbookExchange
+    repo: hortonuva/Horton-TextbookExchange
